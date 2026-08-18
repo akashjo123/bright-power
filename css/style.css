@@ -1391,14 +1391,14 @@ textarea.form-control {
 
 /* Footer Links Hover */
 .footer-link {
-  color: var(--color-border);
+  color: var(--color-text-dark);
   transition: all 0.3s ease;
   display: inline-block;
   text-decoration: none;
 }
 
 .footer-link:hover {
-  color: var(--color-accent);
+  color: var(--color-white);
   transform: translateX(5px);
 }
 
