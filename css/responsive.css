@@ -1,0 +1,267 @@
+/* Responsive Breakpoints */
+
+/* Tablet & Smaller Desktop (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+  
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+}
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .section {
+    padding: 4rem 0;
+  }
+
+  .grid-2, .grid-3 {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  /* Header & Nav */
+  .nav-links, .nav-right .btn {
+    display: none;
+  }
+  
+  .hamburger {
+    display: block;
+  }
+  
+  .mobile-menu-active {
+    overflow: hidden;
+  }
+
+  .mobile-menu-active .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    background: var(--color-white);
+    padding: 2rem;
+    gap: 1.5rem;
+    z-index: 999;
+  }
+  
+  .mobile-menu-active .nav-links a {
+    font-size: 1.25rem;
+  }
+
+  .mobile-menu-active .nav-right {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    right: 2rem;
+    z-index: 1000;
+  }
+
+  .mobile-menu-active .nav-right .btn {
+    display: flex;
+    width: 100%;
+  }
+  
+  .header.scrolled + .mobile-menu-active .nav-links,
+  .header-pill.scrolled + .mobile-menu-active .nav-links {
+    top: 70px;
+    height: calc(100vh - 70px);
+  }
+
+  /* Hero Section */
+  .hero {
+    height: auto;
+    padding: calc(var(--header-height) + 4rem) 0 6rem;
+  }
+  
+  .hero-content {
+    max-width: 100%;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-inner {
+    padding: 8rem 0 4rem;
+  }
+  
+  .hero-inner h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Trust Section */
+  .trust-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  /* Process Timeline (Vertical on Mobile) */
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .timeline::before {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: auto;
+    width: 2px;
+    height: auto;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-step {
+    width: 100%;
+    max-width: 300px;
+    background: var(--color-white);
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .timeline-number {
+    margin: 0 auto 1rem;
+  }
+  
+  /* Projects Gallery Filters */
+  .project-filters {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .project-filters::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .project-filters::-webkit-scrollbar-thumb {
+    background-color: rgba(8, 43, 76, 0.2);
+    border-radius: 4px;
+  }
+  
+  /* Footer */
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .hero-buttons {
+    flex-direction: column;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+  }
+  
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+/* ==========================================================================
+   HOMEPAGE REDESIGN RESPONSIVE OVERRIDES
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  /* Bento Grid */
+  .bento-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-full {
+    height: auto;
+    min-height: 80vh;
+    padding: 8rem 0 4rem;
+  }
+  
+  .hero-full-content h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+  }
+  
+  .insights-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .insight-image-card {
+    height: 400px;
+  }
+  
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-pill {
+    width: calc(100% - 1.5rem);
+    padding: 0 1rem;
+    top: 0.75rem;
+  }
+  
+  .bento-card {
+    padding: 1.5rem;
+  }
+  
+  .mission-card {
+    height: 350px;
+  }
+  
+  .testimonial-card {
+    padding: 2rem;
+  }
+  
+  /* New Header Mobile Adjustments */
+  .header-pill .nav-links {
+    display: none;
+  }
+  
+  body.mobile-menu-active .header-pill .nav-links {
+    display: flex;
+    top: 80px;
+    left: 1rem;
+    right: 1rem;
+    width: auto;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    color: var(--color-primary);
+  }
+  
+  body.mobile-menu-active .header-pill .nav-links a {
+    color: var(--color-primary);
+  }
+  
+  .header-pill .hamburger {
+    display: block !important;
+  }
+  
+  .header-pill.scrolled .hamburger {
+    color: var(--color-primary) !important;
+  }
+  
+  #header-cta-btn {
+    display: none;
+  }
+}
