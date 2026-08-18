@@ -1151,6 +1151,29 @@ textarea.form-control {
   background: #d1a540;
 }
 
+/* --- Hero Base Styles --- */
+.hero-full {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: auto; 
+  min-height: 100vh; 
+  padding: 10rem 0 5rem;
+  border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+}
+
+.hero-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: auto;
+  min-height: 50vh;
+  padding: 12rem 0 6rem;
+  border-radius: 0 0 var(--radius-xl) var(--radius-xl);
+}
+
 /* Bento Grid */
 .bento-grid {
   display: grid;
