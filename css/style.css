@@ -11,7 +11,7 @@
   --color-text-light: #68736C; /* Secondary Text */
   --color-white: #FFFFFF;
   --color-border: #DCE2DC; /* Border */
-  --color-pastel-footer: #EAF2ED; /* Soft Pastel Green for Footer */
+  --color-footer-bg: #4682B4; /* Steel Blue for Footer */
   
   /* Typography */
   --font-family: 'Manrope', sans-serif;
@@ -933,13 +933,13 @@ h4 { font-size: 1.25rem; }
 }
 
 .footer-col h4 {
-  color: var(--color-text-dark);
+  color: var(--color-white);
   margin-bottom: 1.5rem;
   font-size: 1.125rem;
 }
 
 .footer-col p {
-  color: var(--color-text-light);
+  color: rgba(255, 255, 255, 0.8);
   margin-bottom: 1rem;
 }
 
@@ -1392,14 +1392,14 @@ textarea.form-control {
 
 /* Footer Links Hover */
 .footer-link {
-  color: var(--color-text-dark);
+  color: rgba(255, 255, 255, 0.8);
   transition: all 0.3s ease;
   display: inline-block;
   text-decoration: none;
 }
 
 .footer-link:hover {
-  color: var(--color-primary);
+  color: var(--color-white);
   transform: translateX(5px);
 }
 
