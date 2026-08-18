@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Solar Projects & Installations | Bright Power</title>
-  <meta name="description" content="Explore completed installations and renewable-energy projects by Bright Power.">
-  <meta property="og:title" content="Solar Projects & Installations | Bright Power">
-  <meta property="og:description" content="Explore completed installations and renewable-energy projects by Bright Power.">
+  <title>Project Details | Bright Power</title>
+  <meta name="description" content="Detailed case study of our recent solar installation project.">
   <link rel="stylesheet" href="css/style.css?v=4">
   <link rel="stylesheet" href="css/responsive.css?v=4">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -39,93 +37,83 @@
 
   <!-- Hero Section -->
   <section class="hero-inner">
-    <img src="assets/images/hero_projects.jpg" alt="Our Projects" class="hero-inner-bg">
-    <div class="hero-inner-overlay" style="background: linear-gradient(to bottom, rgba(18,55,42,0.85), rgba(8,43,76,0.6));"></div>
+    <img src="assets/images/project_commercial.jpg" alt="Project Hero" class="hero-inner-bg">
+    <div class="hero-inner-overlay" style="background: linear-gradient(to bottom, rgba(18,55,42,0.85), rgba(18,55,42,0.75));"></div>
     
     <div class="hero-inner-content fade-up container">
-      <span class="section-label" style="color: var(--color-secondary); letter-spacing: 2px;">OUR WORK</span>
-      <h1 style="font-size: clamp(3rem, 5vw, 4.5rem); margin-bottom: 1.5rem;">Our Solar Projects</h1>
-      <p style="font-size: 1.25rem; max-width: 600px; margin: 0 auto; opacity: 0.9;">Explore completed installations and renewable-energy projects by Bright Power.</p>
+      <span class="section-label" style="color: var(--color-secondary); letter-spacing: 2px;">RESIDENTIAL ROOFTOP</span>
+      <h1 style="font-size: clamp(3rem, 5vw, 4.5rem); margin-bottom: 1.5rem;">Ayroor Solar Installation</h1>
+      <p style="font-size: 1.25rem; max-width: 600px; margin: 0 auto; opacity: 0.9;">A high-efficiency grid-tied residential power solution powered by a MICROTEK inverter system.</p>
     </div>
   </section>
 
-  <!-- Project Filters -->
-  <section class="section pt-0" style="padding-top: 6rem;">
+  <!-- Project Details Content -->
+  <section class="section" style="padding-top: 6rem; padding-bottom: 4rem;">
     <div class="container">
-      <div class="project-filters fade-up" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-        <button class="btn-pill filter-btn active" data-filter="all">All Projects</button>
-        <button class="btn-pill filter-btn" data-filter="residential">Residential</button>
-        <button class="btn-pill filter-btn" data-filter="commercial">Commercial</button>
-        <button class="btn-pill filter-btn" data-filter="industrial">Industrial</button>
-      </div>
-    </div>
-  </section>
+      <div class="bento-grid fade-up">
+        
+        <!-- Main Content -->
+        <div class="bento-card" style="grid-column: span 8; padding: 3rem;">
+          <span class="section-label" style="color: var(--color-text-light); margin-bottom: 1rem;">PROJECT OVERVIEW</span>
+          <h2 style="margin-bottom: 2rem; font-size: 2.5rem; color: var(--color-primary);">Ayroor, Pathanamthitta</h2>
+          
+          <p class="text-light" style="font-size: 1.125rem; line-height: 1.8; margin-bottom: 2rem;">
+            A reliable residential power solution powered by a <strong>MICROTEK</strong> inverter system. This installation guarantees stable performance and excellent energy savings in a verdant, semi-urban environment in Ayroor, Kerala.
+          </p>
+          
+          <div style="display: grid; grid-template-columns: 1fr; gap: 2rem; margin-bottom: 2.5rem;">
+            
+            <div style="position: relative; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm);">
+              <img src="assets/images/recent_3.jpg" alt="Solar Panels in Ayroor" style="width: 100%; display: block;">
+              <div style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.8); color: #fff; padding: 1rem;">
+                <div style="font-size: 0.85rem; font-weight: bold; margin-bottom: 0.25rem;"><i class="fa-solid fa-location-dot" style="color: var(--color-secondary);"></i> 9P4M+RR6, Ayroor, Kerala 689611, India</div>
+                <div style="font-size: 0.75rem; color: rgba(255,255,255,0.7);">Friday, 14/08/2026 11:33 AM GMT +05:30</div>
+              </div>
+            </div>
 
-  <!-- Project Gallery -->
-  <section class="section pt-0" style="padding-bottom: 8rem;">
-    <div class="container">
-      <div class="grid-3 fade-up" id="project-gallery">
-        
-        <!-- Project 1 -->
-        <a href="project-1.html" class="mission-card project-card fade-up" data-category="residential" style="display: block;">
-          <img src="assets/images/project_residential.jpg" alt="Modern Residential Solar" style="width: 100%; height: 100%; object-fit: cover; position: absolute; transition: transform 0.5s;">
-          <div class="mission-card-content">
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--color-secondary); margin-bottom: 0.5rem; display: block;">Residential</span>
-            <h3 style="color: var(--color-white); font-size: 1.5rem; margin-bottom: 0.5rem;">Modern Residential Solar</h3>
-            <p style="color: rgba(255,255,255,0.8); font-size: 0.95rem; margin: 0;"><i class="fa-solid fa-location-dot"></i> Kochi, Kerala</p>
-          </div>
-        </a>
-        
-        <!-- Project 2 -->
-        <a href="project-2.html" class="mission-card project-card fade-up" data-category="commercial" style="display: block;">
-          <img src="assets/images/project_commercial.jpg" alt="Commercial Rooftop Solar" style="width: 100%; height: 100%; object-fit: cover; position: absolute; transition: transform 0.5s;">
-          <div class="mission-card-content">
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--color-secondary); margin-bottom: 0.5rem; display: block;">Commercial</span>
-            <h3 style="color: var(--color-white); font-size: 1.5rem; margin-bottom: 0.5rem;">Commercial Rooftop Solar</h3>
-            <p style="color: rgba(255,255,255,0.8); font-size: 0.95rem; margin: 0;"><i class="fa-solid fa-location-dot"></i> Ernakulam, Kerala</p>
-          </div>
-        </a>
-        
-        <!-- Project 3 -->
-        <a href="project-3.html" class="mission-card project-card fade-up" data-category="industrial" style="display: block;">
-          <img src="assets/images/project_industrial.jpg" alt="Industrial Solar Installation" style="width: 100%; height: 100%; object-fit: cover; position: absolute; transition: transform 0.5s;">
-          <div class="mission-card-content">
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--color-secondary); margin-bottom: 0.5rem; display: block;">Industrial</span>
-            <h3 style="color: var(--color-white); font-size: 1.5rem; margin-bottom: 0.5rem;">Industrial Solar Installation</h3>
-            <p style="color: rgba(255,255,255,0.8); font-size: 0.95rem; margin: 0;"><i class="fa-solid fa-location-dot"></i> Kerala</p>
-          </div>
-        </a>
-        
-        <!-- Project 4 -->
-        <a href="project-4.html" class="mission-card project-card fade-up" data-category="residential" style="display: block;">
-          <img src="assets/images/project_residential.jpg" alt="Villa Solar Power System" style="width: 100%; height: 100%; object-fit: cover; position: absolute; transition: transform 0.5s;">
-          <div class="mission-card-content">
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--color-secondary); margin-bottom: 0.5rem; display: block;">Live Showcase</span>
-            <h3 style="color: var(--color-white); font-size: 1.5rem; margin-bottom: 0.5rem;">Recent Kerala Installations</h3>
-            <p style="color: rgba(255,255,255,0.8); font-size: 0.95rem; margin: 0;"><i class="fa-solid fa-location-dot"></i> Kochi & Kanjirappally</p>
-          </div>
-        </a>
-        
-        <!-- Project 5 -->
-        <a href="project-5.html" class="mission-card project-card fade-up" data-category="commercial" style="display: block;">
-          <img src="assets/images/project_commercial.jpg" alt="Business Solar Project" style="width: 100%; height: 100%; object-fit: cover; position: absolute; transition: transform 0.5s;">
-          <div class="mission-card-content">
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--color-secondary); margin-bottom: 0.5rem; display: block;">Commercial</span>
-            <h3 style="color: var(--color-white); font-size: 1.5rem; margin-bottom: 0.5rem;">Business Solar Project</h3>
-            <p style="color: rgba(255,255,255,0.8); font-size: 0.95rem; margin: 0;"><i class="fa-solid fa-location-dot"></i> Kozhikode, Kerala</p>
-          </div>
-        </a>
+            <div style="position: relative; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm);">
+              <img src="assets/images/recent_2.jpg" alt="MICROTEK Inverter" style="width: 100%; display: block;">
+              <div style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.8); color: #fff; padding: 1rem;">
+                <div style="font-size: 0.85rem; font-weight: bold; margin-bottom: 0.25rem;"><i class="fa-solid fa-microchip" style="color: var(--color-secondary);"></i> MICROTEK Grid Tie Inverter Setup</div>
+                <div style="font-size: 0.75rem; color: rgba(255,255,255,0.7);">Friday, 14/08/2026 11:24 AM GMT +05:30</div>
+              </div>
+            </div>
 
-        <!-- Project 6 -->
-        <a href="project-6.html" class="mission-card project-card fade-up" data-category="residential" style="display: block;">
-          <img src="assets/images/recent_2.jpg" alt="Ayroor Residential Solar" style="width: 100%; height: 100%; object-fit: cover; position: absolute; transition: transform 0.5s;">
-          <div class="mission-card-content">
-            <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--color-secondary); margin-bottom: 0.5rem; display: block;">Residential</span>
-            <h3 style="color: var(--color-white); font-size: 1.5rem; margin-bottom: 0.5rem;">Ayroor Residential Solar</h3>
-            <p style="color: rgba(255,255,255,0.8); font-size: 0.95rem; margin: 0;"><i class="fa-solid fa-location-dot"></i> Pathanamthitta, Kerala</p>
           </div>
-        </a>
 
+          <h3 style="margin-bottom: 1rem; color: var(--color-primary);">Hardware & Installation</h3>
+          <p class="text-light" style="line-height: 1.8; margin-bottom: 2rem;">
+            For the Ayroor site, we utilized an advanced <strong>MICROTEK Grid Tie Inverter</strong> to manage the load effectively. The solar panels are securely mounted on the sloped roof, capturing optimal sunlight to offset the property's grid reliance.
+          </p>
+
+        </div>
+
+        <!-- Sidebar Meta -->
+        <div class="bento-card" style="grid-column: span 4; background-color: var(--color-bg-alt); padding: 3rem; position: sticky; top: 120px; align-self: start;">
+          <h3 style="margin-bottom: 2rem; font-size: 1.5rem; color: var(--color-primary);">Project Details</h3>
+          
+          <div style="margin-bottom: 1.5rem; border-bottom: 1px solid rgba(8, 43, 76, 0.1); padding-bottom: 1.5rem;">
+            <span style="font-size: 0.875rem; color: var(--color-text-light); text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 0.25rem;">Location</span>
+            <div style="font-weight: 700; color: var(--color-primary); font-size: 1.125rem;">Ayroor, Pathanamthitta</div>
+          </div>
+
+          <div style="margin-bottom: 1.5rem; border-bottom: 1px solid rgba(8, 43, 76, 0.1); padding-bottom: 1.5rem;">
+            <span style="font-size: 0.875rem; color: var(--color-text-light); text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 0.25rem;">System Type</span>
+            <div style="font-weight: 700; color: var(--color-primary); font-size: 1.125rem;">Grid-Tied Solar</div>
+          </div>
+
+          <div style="margin-bottom: 1.5rem; border-bottom: 1px solid rgba(8, 43, 76, 0.1); padding-bottom: 1.5rem;">
+            <span style="font-size: 0.875rem; color: var(--color-text-light); text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 0.25rem;">Hardware Used</span>
+            <div style="font-weight: 700; color: var(--color-primary); font-size: 1.125rem;">MICROTEK Inverter</div>
+          </div>
+
+          <div style="margin-bottom: 1.5rem; border-bottom: 1px solid rgba(8, 43, 76, 0.1); padding-bottom: 1.5rem;">
+            <span style="font-size: 0.875rem; color: var(--color-text-light); text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 0.25rem;">Commission Date</span>
+            <div style="font-weight: 700; color: var(--color-primary); font-size: 1.125rem;">August 14, 2026</div>
+          </div>
+
+          <a href="contact.html" class="btn-pill" style="width: 100%; text-align: center; background: var(--color-primary); color: var(--color-white); display: block;">Get a Similar Quote</a>
+        </div>
       </div>
     </div>
   </section>
@@ -138,7 +126,8 @@
         <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(8, 43, 76, 0.8); z-index: 1;"></div>
         
         <div style="position: relative; z-index: 2; width: 100%; max-width: 800px; margin: 0 auto;" class="fade-up">
-          <h2 style="color: var(--color-white); font-size: clamp(2.5rem, 4vw, 3.5rem); margin-bottom: 2rem;">Have a Solar Project in Mind?</h2>
+          <h2 style="color: var(--color-white); font-size: clamp(2.5rem, 4vw, 3.5rem); margin-bottom: 1.5rem;">Ready to transition to solar?</h2>
+          <p style="color: rgba(255,255,255,0.9); font-size: 1.25rem; margin-bottom: 2.5rem;">Let us design a custom renewable energy system tailored exactly to your needs.</p>
           <a href="contact.html" class="btn-pill" style="padding: 1rem 2.5rem; font-size: 1.125rem;">Start Your Project <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
@@ -216,6 +205,5 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <script src="js/projects.js"></script>
 </body>
 </html>
