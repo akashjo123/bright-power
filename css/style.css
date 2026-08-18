@@ -11,6 +11,7 @@
   --color-text-light: #68736C; /* Secondary Text */
   --color-white: #FFFFFF;
   --color-border: #DCE2DC; /* Border */
+  --color-pastel-footer: #EAF2ED; /* Soft Pastel Green for Footer */
   
   /* Typography */
   --font-family: 'Manrope', sans-serif;
@@ -1398,7 +1399,7 @@ textarea.form-control {
 }
 
 .footer-link:hover {
-  color: var(--color-white);
+  color: var(--color-primary);
   transform: translateX(5px);
 }
 
