@@ -137,18 +137,18 @@
     justify-content: flex-start;
   }
 
-  .hero-full-content {
+  .hero-full-content, .hero-inner-content {
     text-align: left !important;
     padding-top: 0 !important;
     max-width: 100% !important;
   }
 
-  .hero-full-content h1 {
+  .hero-full-content h1, .hero-inner-content h1 {
     font-size: clamp(2rem, 7vw, 3rem);
     margin-bottom: 1rem;
   }
 
-  .hero-full-content p {
+  .hero-full-content p, .hero-inner-content p {
     font-size: 1rem;
     margin-bottom: 1.5rem;
     max-width: 100% !important;
