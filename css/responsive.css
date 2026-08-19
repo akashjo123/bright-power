@@ -187,6 +187,7 @@
 
   /* --- Footer --- */
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .footer-col { margin-left: 0 !important; }
 
   .footer-bottom {
     flex-direction: column;
