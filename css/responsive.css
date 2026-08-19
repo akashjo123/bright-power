@@ -207,8 +207,9 @@
 
   .footer-links { flex-wrap: wrap; gap: 0.75rem; }
 
-  /* --- Contact grid --- */
+  /* --- Contact grid & Forms --- */
   .contact-grid { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr !important; }
 
   /* --- Insights / Blog --- */
   .insights-grid { grid-template-columns: 1fr; }
