@@ -251,11 +251,15 @@
     background: #111418 !important;
     border-radius: 28px !important;
     overflow: hidden !important;
+    /* Safari overflow:hidden border-radius fixes */
+    transform: translateZ(0);
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
   }
   .sus-hero {
-    border-radius: 0 !important;
+    border-radius: 28px 28px 0 0 !important;
     padding: 7rem 1.25rem 2rem !important;
     min-height: unset !important;
+    overflow: hidden !important;
   }
   .sus-img {
     height: 100% !important;
