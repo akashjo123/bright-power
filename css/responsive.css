@@ -244,11 +244,13 @@
   
   /* Mobile mockup exact match overrides */
   .sus-section {
-    padding: 0 !important;
-    margin-bottom: 0 !important;
+    padding: 0 1rem !important;
+    margin-bottom: 4rem !important;
   }
   .sus-container {
     background: #111418 !important;
+    border-radius: 28px !important;
+    overflow: hidden !important;
   }
   .sus-hero {
     border-radius: 0 !important;
