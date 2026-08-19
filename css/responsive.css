@@ -186,6 +186,7 @@
   .testimonial-card { padding: 1.5rem; }
 
   /* --- Footer --- */
+  footer { border-radius: 0 !important; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
   .footer-col { margin-left: 0 !important; }
 
