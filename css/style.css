@@ -1206,6 +1206,22 @@ a.bento-card:hover {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
+a.bento-card .blog-img-wrapper img {
+  transition: transform 0.5s ease;
+}
+
+a.bento-card:hover .blog-img-wrapper img {
+  transform: scale(1.05);
+}
+
+a.bento-card .read-more-btn i {
+  transition: transform 0.3s ease;
+}
+
+a.bento-card:hover .read-more-btn i {
+  transform: translateX(6px);
+}
+
 .bento-card-img {
   padding: 0;
 }
